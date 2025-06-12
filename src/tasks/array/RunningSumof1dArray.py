@@ -11,6 +11,5 @@ class Solution(object):
 
         return result
 
-
-s = Solution()
-print(s.runningSum([1, 3, 5, 7]))
+# Check solution
+print(Solution.runningSum([1, 3, 5, 7]))
