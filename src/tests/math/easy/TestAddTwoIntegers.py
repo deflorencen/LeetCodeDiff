@@ -1,5 +1,5 @@
 import pytest
-from src.tasks.math.AddTwoIntegers import Solution
+from src.tasks.math.easy.AddTwoIntegers import Solution
 
 @pytest.fixture
 def solution():

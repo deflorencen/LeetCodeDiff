@@ -1,5 +1,5 @@
 import pytest
-from src.tasks.array.RunningSumof1dArray import Solution
+from src.tasks.array.easy.RunningSumof1dArray import Solution
 
 
 @pytest.fixture
