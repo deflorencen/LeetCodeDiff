@@ -13,6 +13,12 @@ def solution():
     ([[42]], 42),
     ([[1, 1]] * 1000, 2),
     ([], 0),
+    ([[]], 0),
+    ([[999]], 999),
+    ([[1]*10_000]*1, 10_000),
+
+     # Value != -n
+    ([[-1, -2], [-3, -4]], -3),
 ])
 def test_different_value(solution, input_value, expected):
     assert solution.maximumWealth(input_value) == expected
