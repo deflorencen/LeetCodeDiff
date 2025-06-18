@@ -1,5 +1,5 @@
 import pytest
-from src.tasks.linkedlist.MiddleoftheLinkedList import Solution, build_linked_list, to_list
+from src.tasks.linkedlist.easy.MiddleoftheLinkedList import Solution, build_linked_list, to_list
 
 @pytest.mark.parametrize("input_list, expected_output", [
     ([1], [1]),
